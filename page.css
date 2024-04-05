@@ -1,0 +1,199 @@
+* {
+    margin:0;
+    padding:0;
+}
+.flex{
+    display: flex;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #306c9c;
+    display: flex;
+    align-items: center;
+    height: 85px;
+  }
+  .navbar a {
+    float: left;
+    display: flex;
+    color: gold;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 35px;
+  }
+  .logo{
+    padding: 1%;
+  }
+  .navlink{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+.logo h1{
+    color: rgb(255, 243, 74);
+}
+
+/* Style untuk sidebar */
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 85px;
+    left: 0px;
+    background-color: #9a9ca1;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Style untuk link di dalam sidebar */
+  .sidebar a {
+    padding: 16px 16px 16px 16px;
+    text-decoration: none;
+    font-size: 25px; 
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Ubah warna link saat di-hover */
+  .sidebar a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 35px;
+    width: auto;
+  }
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+}
+.square{
+    height: 600px;
+    width: 500px;
+    background-color: #306c9c;
+    border-radius: 10px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square img{
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    margin-top: -90px;
+    width: 200px;
+}
+  
+.text h2{
+    margin-top: -440px;
+    font-size: 30px;
+    color: #ddd;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.tentang h3{
+    margin-top: -350px;
+    text-align: justify;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: #ddd;
+}
+.box_right{
+    width: 850px;
+    height: 240px;
+    margin-left: 1000px;
+    margin-top: -690px;
+    background-color: rgb(163, 163, 163);
+}
+.header_box{
+    width: 850px;
+    height: 50px;
+    background-color: #306c9c;
+}
+.isi h4{
+    text-align: center;
+    margin-top: -45px;
+    font-size: 30px;
+    color: gold;
+}
+
+.input-control input{
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 220px;
+}
+.input-control label{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+.input-mail input{
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 85px;
+    margin-top: 50px;
+    width: 220px;
+}
+.input-mail label{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #ffffff; 
+}
+.input-hp input{
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 220px;
+}
+.input-hp label{
+    font-size: 20px;
+    margin-left: 60px;
+    color: #ffffff; 
+}
+.input-anda input{
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 78px;
+    margin-top: 50px;
+    width: 220px;
+}
+.input-anda label{
+    font-size: 20px;
+    margin-left: 60px;
+    color: #ffffff;
+}
+.tombol button{
+    margin-left: 740px;
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px 
+}
+.tombol button:hover{
+    background-color: #44e2b3;
+    color: rgb(0, 0, 0);
+}
+.table tr{
+    background-color: #acacac;
+}
+.table th{
+    background-color: #306c9c;
+    color: gold;
+}
+.table{
+    width: 850px;
+    height: 250px;
+    margin-top: 80px;
+}
