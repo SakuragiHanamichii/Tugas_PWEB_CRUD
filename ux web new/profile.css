@@ -1,0 +1,149 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.topbar{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 85px;
+}
+.topbar a{
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: -30px;
+}
+.navlink a:hover{
+    background-color: #FB8F1D;
+    color: rgb(255, 255, 255);
+    border-radius: 35px;
+}
+.navlink{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+.logo{
+    margin-left: -1760px;
+    margin-top: -40px;
+}
+.logo h1{
+    color: #ffb566;
+    padding: -10px;
+}
+.gambar1 img{
+    margin-left: -240px;
+    display: flex;
+    margin-top: -40px;
+}
+
+.profileimg{
+    margin-left: 1750px;
+    display: flex;
+    margin-top: -85px;
+    width: 55px;   
+    z-index: inherit;
+}
+.profileimg img{
+    margin-top: 0px;
+    width: 55px;   
+}
+.borderleft {
+    background-color: rgb(167, 167, 167);
+    display: flex;
+    width: 500px;
+    height: 120px;
+    margin-top: 85px;
+    margin-left: 450px;
+    border-radius: 5px;
+}
+.borderleft h6{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.borderright{
+    background-color: rgb(167, 167, 167);
+    display: flex;
+    width: 500px;
+    height: 120px;
+    margin-top: -120px;
+    margin-left: 1000px;
+    border-radius: 5px;
+}
+.borderright h5{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.border {
+    background-color: rgb(167, 167, 167);
+    width: 1050px;
+    height: 110px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 450px;
+    border-radius: 5px;
+}
+.border h1{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.square{
+    background-color: rgb(167, 167, 167);
+    width: 1050px;
+    height: 475px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 450px;
+    border-radius: 5px;
+}
+.square h2{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.table {
+    margin-top: -400px;
+    margin-left: 450px;
+}
+.table th{
+    padding: 40px;
+    width: fit-content;
+}
+.table, table
+th,
+td {
+  border: none;
+  height: 40px;
+}
+
+.table th,
+td {
+  padding: 0px 24px;
+  text-align: left;
+}
+.btn-content{
+    width: fit-content;
+    margin-left: 750px;
+    margin-top: 15px;
+}
+.btn-tambah {
+    color: rgb(0, 0, 0);
+    background-color: green;
+    border-radius: 20px;
+}
+.btn-edit{
+    background-color: yellow;
+    border-radius: 20px;
+}
+.btn-hapus{
+    background-color: red;
+    border-radius: 20px;
+}
